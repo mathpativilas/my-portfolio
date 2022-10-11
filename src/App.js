@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 function App() {
   return (
     <div>
-      <h1 className="font-sign text-4xl font-bold ">Vilas</h1>
+      <Navbar />
     </div>
   );
 }
