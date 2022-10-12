@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -18,7 +19,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      link: "Exprience",
+      link: "Experience",
     },
     {
       id: 5,
@@ -38,7 +39,9 @@ const Navbar = () => {
             className="px-4 cursor-pointer capitalize font-medium
                  text-gray-500 hover:scale-105 duration-200 "
           >
-            {item.link}
+            <Link to={item.link} smooth duration={500}>
+              {item.link}
+            </Link>
           </li>
         ))}
       </ul>
@@ -58,7 +61,14 @@ const Navbar = () => {
               className="px-4 text-4xl py-6 cursor-pointer capitalize font-medium
                  text-gray-500 hover:scale-105 duration-200 "
             >
-              {item.link}
+              <Link
+                onClick={() => setNav(!nav)}
+                to={item.link}
+                smooth
+                duration={500}
+              >
+                {item.link}
+              </Link>
             </li>
           ))}
         </ul>
