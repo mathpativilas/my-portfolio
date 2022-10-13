@@ -14,24 +14,31 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          I have more than 3 years of experience as a developer and specialize
+          in building user-friendly, responsive websites.In my previous role , I
+          was responsible for developing and implementing the company’s website
+          design. I have a strong understanding of front-end development and am
+          proficient in using HTML, CSS, and JavaScript,React js,Material
+          Ui,Bootstrap. I am a motivated and creative individual who is always
+          looking for new ways to improve my skills. I am passionate about web
+          development and enjoy working on projects that challenge me to think
+          outside the box.
         </p>
+        <div>
+          <h2 className="text-1xl sm:text-2xl font-bold text-white  pt-5">
+            Basic Information
+          </h2>
 
-        <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
+          <div className="pt-5">
+            <h2 className=" text-xl">
+              Full Name : Vilas Revansiddhayya Mathpati <br />
+              Email : atechy.vilas@gmail.com <br /> Phone: +971543742090 <br />{" "}
+              Age : 26 <br /> Adress : Al quadesia tiger Building,Sharjah,UAE.{" "}
+              <br />
+              Languages : English,Hindi,Marathi,Kannada
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
   );
