@@ -19,9 +19,9 @@ const Home = () => {
             (Frontend developer)
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 4 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            "A passionate Frontend Developer 🚀 having an 3 years of experience
+            in building Web applications with Html / CSS / JavaScript / Reactjs
+            / Nodejs and some other cool libraries and frameworks."
           </p>
 
           <div>
